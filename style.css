@@ -1,0 +1,271 @@
+.container{
+    display:grid;
+    grid-template-areas:
+    "grin month-1 month-2 month-3 month-4"
+    "spase tr1 tr2 tr3 tr4"
+    "per td1 td2 td3 td4"
+    "account th1 th2 th3 th4"
+    "mysql ht1 ht2 ht3 ht4"
+    "support answer1 answer2 answer3 answer4"
+    "tickets amount1 amount2 amount3 amount4"
+    "empty st1 st2 st3 st4"
+    ;
+    grid-template-columns: 28% 18% 18% 18% 18% ;
+    grid-template-rows: 140px 50px 50px 50px 50px 50px 50px 55px;
+    text-align: center;
+    font-family:'Verdana';
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    width: 910px;
+    border-radius: 16px;
+    overflow:hidden;
+}
+.grin{
+    grid-area: grin;
+    background-color: rgb(119, 129, 160);
+    color: white;
+    padding-top: 25%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+    font-size: 19px;
+    
+}
+button {
+    height: 40px;
+    width: 100px;
+    font-size:16px ;
+    background-color: rgb(206, 206, 206);
+    border:2px solid rgb(97, 97, 97);
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+    
+}
+button:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+.month-1{
+    grid-area: month-1;
+    background-color: rgb(103, 118, 155);
+    color: white;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.month-2{
+    grid-area: month-2;
+    background-color: rgb(71, 84, 119);
+    color: white;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.month-3{
+    grid-area: month-3;
+    background-color: rgb(38, 47, 71);
+    color: white;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.month-4{
+    grid-area: month-4;
+    background-color: rgb(23, 32, 56);
+    color: rgb(255, 254, 254);
+    padding-top: 5%;
+    font-weight: bold;
+}
+.spase{
+    grid-area: spase;
+    background-color: rgb(199, 199, 199);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.tr1{
+    grid-area:tr1;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.tr2{
+    grid-area:tr2;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.tr3{
+    grid-area:tr3;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.tr4{
+    grid-area:tr4;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.per{
+    grid-area: per;
+    background-color: rgb(224, 223, 223);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.td1{
+    grid-area:td1;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.td2{
+    grid-area:td2;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.td3{
+    grid-area:td3;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.td4{
+    grid-area:td4;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.account{
+    grid-area: account;
+    background-color: rgb(199, 199, 199);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.th1{
+    grid-area:th1;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.th2{
+    grid-area:th2;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.th3{
+    grid-area:th3;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.th4{
+    grid-area:th4;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.mysql{
+    grid-area: mysql;
+    background-color: rgb(224, 223, 223);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.ht1{
+    grid-area: ht1;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.ht2{
+    grid-area: ht2;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.ht3{
+    grid-area: ht3;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.ht4{
+    grid-area: ht4;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.support{
+    grid-area:support;
+    background-color: rgb(199, 199, 199);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.answer1{
+    grid-area: answer1;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.answer2{
+    grid-area: answer2;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.answer3{
+    grid-area: answer3;
+    background-color: rgb(221, 221, 221);
+    padding-top: 10%;
+}
+.answer4{
+    grid-area: answer4;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+}
+.tickets{
+    grid-area: tickets;
+    background-color: rgb(224, 223, 223);
+    padding-top: 6%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.amount1{
+    grid-area: amount1;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.amount2{
+    grid-area: amount2;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.amount3{
+    grid-area: amount3;
+    background-color: rgb(238, 238, 238);
+    padding-top: 10%;
+}
+.amount4{
+    grid-area: amount4;
+    background-color: rgb(224, 223, 223);
+    padding-top: 10%;
+}
+.empty{
+    grid-area: empty;
+    background-color: rgb(199, 199, 199);
+    padding-top: 10%;
+    text-align: left;
+    padding-inline:2em ;
+    white-space: nowrap;
+}
+.st1{
+    grid-area: st1;
+    background-color: rgb(221, 221, 221);
+    padding-top: 3%;
+}
+.st2{
+    grid-area: st2;
+    background-color: rgb(199, 199, 199);
+    padding-top: 3%;
+}
+.st3{
+    grid-area: st3;
+    background-color: rgb(221, 221, 221);
+    padding-top: 3%;
+}
+.st4{
+    grid-area: st4;
+    background-color: rgb(199, 199, 199);
+    padding-top: 3%;
+}
